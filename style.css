@@ -22,3 +22,25 @@ body {
   font-size: 4rem;
   padding-bottom: 5%;
 }
+
+@keyframes changecolor {
+  0% {
+    color: aliceblue;
+  }
+
+  25% {
+    color: rgb(127, 195, 255);
+  }
+
+  50% {
+    color: rgb(230, 247, 75);
+  }
+
+  75% {
+    color: rgb(255, 107, 225);
+  }
+
+  100% {
+    color: rgb(255, 165, 62);
+  }
+}
